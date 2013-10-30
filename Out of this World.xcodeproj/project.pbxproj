@@ -17,7 +17,7 @@
 		0F705A40182095D800608B6D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F705A3F182095D800608B6D /* Default@2x.png */; };
 		0F705A42182095D800608B6D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F705A41182095D800608B6D /* Default-568h@2x.png */; };
 		0F705A45182095D800608B6D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F705A43182095D800608B6D /* MainStoryboard.storyboard */; };
-		0F705A48182095D800608B6D /* OWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F705A47182095D800608B6D /* OWViewController.m */; };
+		0F705A501820965000608B6D /* OWOuterSpaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F705A4F1820965000608B6D /* OWOuterSpaceTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +35,8 @@
 		0F705A3F182095D800608B6D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0F705A41182095D800608B6D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0F705A44182095D800608B6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		0F705A46182095D800608B6D /* OWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWViewController.h; sourceTree = "<group>"; };
-		0F705A47182095D800608B6D /* OWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWViewController.m; sourceTree = "<group>"; };
+		0F705A4E1820964F00608B6D /* OWOuterSpaceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWOuterSpaceTableViewController.h; sourceTree = "<group>"; };
+		0F705A4F1820965000608B6D /* OWOuterSpaceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWOuterSpaceTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 				0F705A3A182095D800608B6D /* OWAppDelegate.h */,
 				0F705A3B182095D800608B6D /* OWAppDelegate.m */,
 				0F705A43182095D800608B6D /* MainStoryboard.storyboard */,
-				0F705A46182095D800608B6D /* OWViewController.h */,
-				0F705A47182095D800608B6D /* OWViewController.m */,
+				0F705A4E1820964F00608B6D /* OWOuterSpaceTableViewController.h */,
+				0F705A4F1820965000608B6D /* OWOuterSpaceTableViewController.m */,
 				0F705A32182095D700608B6D /* Supporting Files */,
 			);
 			path = "Out of this World";
@@ -176,7 +176,7 @@
 			files = (
 				0F705A38182095D800608B6D /* main.m in Sources */,
 				0F705A3C182095D800608B6D /* OWAppDelegate.m in Sources */,
-				0F705A48182095D800608B6D /* OWViewController.m in Sources */,
+				0F705A501820965000608B6D /* OWOuterSpaceTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

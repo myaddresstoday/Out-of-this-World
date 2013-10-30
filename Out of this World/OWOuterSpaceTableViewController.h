@@ -1,5 +1,5 @@
 //
-//  OWViewController.h
+//  OWOuterSpaceTableViewController.h
 //  Out of this World
 //
 //  Created by InTouch Administrator on 10/29/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OWViewController : UIViewController
+@interface OWOuterSpaceTableViewController : UITableViewController
 
 @end
